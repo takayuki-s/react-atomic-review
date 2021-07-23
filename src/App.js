@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { PrimaryButton } from './components/atoms/button/PrimaryButton';
+import { SecondaryButton } from './components/atoms/button/SecondaryButon';
 
 function App() {
   return (
     <div className="App">
       <PrimaryButton>テスト</PrimaryButton>
-      <PrimaryButton>検索</PrimaryButton>
+      <SecondaryButton>検索</SecondaryButton>
     </div>
   );
 }
