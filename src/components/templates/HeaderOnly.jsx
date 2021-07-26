@@ -5,7 +5,7 @@ export const HeaderOnly = (props) => {
   return(
     <>
       <Header />
-        { children }
+      { children }
     </>
   )
 }
