@@ -36,14 +36,14 @@ const SDl = styled.dl`
     display: flex;
   }
   dt {
-    width: 15%;
+    width: 20%;
     /* float: left; */
   }
-  @media screen and (min-width: 900px) {
+  /* @media screen and (min-width: 900px) {
     dt {
-      width: 10%;
+      width: 20%;
     }
-  }
+  } */
   dd {
     /* padding-left: 32px; */
     padding-bottom: 8px;
