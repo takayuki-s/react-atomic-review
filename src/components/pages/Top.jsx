@@ -4,8 +4,8 @@ import { SecondaryButton } from "../atoms/button/SecondaryButon"
 
 export const Top = () => {
   const history = useHistory();
-  const onClickAdmin = () => history.push("/users");
-  const onClickGeneral = () => history.push("/users");
+  const onClickAdmin = () => history.push({ pathname: "/users", state: { isAdmin: true }});
+  const onClickGeneral = () => history.push({ pathname: "/users", state: { isAdmin: false }});
   return (
     <SContainer>
       <h2>TOPページです</h2>
