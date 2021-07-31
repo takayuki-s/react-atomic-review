@@ -6,7 +6,6 @@ export const UserIconWithName = (props) => {
   const { image, name } = props;
   const { userInfo } = useContext(UserContext);
   const isAdmin = userInfo ? userInfo.isAdmin : false;
-  console.log(isAdmin);
   return (
     <SContainer>
       <SImg height={160} width={160} src={image} alt={name} />
